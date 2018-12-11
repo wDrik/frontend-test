@@ -27,7 +27,7 @@ Depois do seu setup você precisará seguir as seguintes instruções, para cons
   * Ordernar os items do json a partir da porcentagem calculada acima.
 3.  **NÃO** alterar o arquivo **matchboxbrasil.json**. Em hipótese nenhuma!
 4. Se for preciso modificar a estrutura e workflow, atualizar o README.
-5. **Não submeta o Pull Request**, envie um link do seu repositório para daniel.konskier@matchboxbrasil.com :D
+5. **Não submeta o Pull Request**, envie um link do seu repositório para produto@matchboxbrasil.com com o assunto "teste de front-end" :D
 
 ### Requisitos obrigatórios
 1. Utilizar um pré-processador CSS de sua preferência.
@@ -44,7 +44,7 @@ Depois do seu setup você precisará seguir as seguintes instruções, para cons
 
 ## Submissão
 
-Compacte o projeto em um arquivo .zip e envie para daniel.konskier@matchboxbrasil.com.
+Compacte o projeto em um arquivo .zip e envie para produto@matchboxbrasil.com.
 
 Iremos instalar e executar quaisquer dependências necessárias, então certifique-se de colocar todos os arquivos necessários e as devidas instruções.
 

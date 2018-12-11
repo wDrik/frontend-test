@@ -1,5 +1,6 @@
 ### Sobre a Matchbox Brasil
-A Matchbox nasceu para revolucionar a forma como empresas e jovens se conectam e se relacionam. Conheça: http://matchboxbrasil.com
+A Matchbox nasceu para revolucionar a forma como empresas e jovens se conectam e se relacionam. 
+Conheça: http://matchboxbrasil.com
 
 ### Teste FrontEnd para a Matchbox Brasil!
 Essa teste consiste em entendermos um pouco mais sobre seus conhecimentos com HTML, CSS, JavaScript, Código responsivo, suporte a crossbrowser e lógica.
@@ -49,7 +50,8 @@ Iremos instalar e executar quaisquer dependências necessárias, então certifiq
 
 ## Dúvidas?
 
-Em caso de dúvidas, envie e-mail para daniel.konskier@matchboxbrasil.com.
+Em caso de dúvidas, envie e-mail para produto@matchboxbrasil.com
+
 
 ## Obrigado!
 

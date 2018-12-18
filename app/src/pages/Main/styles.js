@@ -1,21 +1,28 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 80px;
+  justify-content: center;
+
 
   img.logo {
     width: 100%;
     max-width: 165px;
-    opacity: .6;
+    transition: all ease-in-out .4s;
+
+    &:hover {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+    }
   }
 `;
 
 export const Header = styled.header`
   width: 100%;
-  max-width: 400px;
+  max-width: 342px;
   display: flex;
   flex-direction: column;
 

@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
-
-import logo from '../../assets/img/logo.png';
-
 import { Header, Container } from "./styles";
 
+import logo from '../../assets/img/logo.png';
 import List from '../../components/List';
-
 import Json from '../../matchboxbrasil.json';
 
 class Main extends Component {
@@ -32,9 +29,8 @@ class Main extends Component {
     await this.setState({ users: data });
   }
 
-
-  render() {
-    return(
+  render () {
+    return (
       <Container>
         <Header>
           <img src={ logo } className="logo" alt="Github" />
@@ -42,7 +38,6 @@ class Main extends Component {
             <h1>ranking</h1>
           </div>
         </Header>
-
 
         <List users={ this.state.users } />
       </Container>

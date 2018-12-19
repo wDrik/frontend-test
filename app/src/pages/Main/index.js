@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Header, Container } from "./styles";
+import { Container, Header, Footer } from "./styles";
 
 import logo from '../../assets/img/logo.png';
 import List from '../../components/List';
@@ -40,6 +40,10 @@ class Main extends Component {
         </Header>
 
         <List users={ this.state.users } />
+
+        <Footer>
+          <p>front-end test <span>/ matchboxbrasil.com</span></p>
+        </Footer>
       </Container>
     );
   }

@@ -19,7 +19,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   .particles {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     position: absolute;
     top: 0;

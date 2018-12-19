@@ -12,6 +12,7 @@ const List = ({ users }) => (
             <div className="avatar">
               <img src={user.picture} alt="Avatar" />
             </div>
+
             <div className="info">
               <span>{user.name}</span>
               <small>{user.description}</small>
@@ -43,6 +44,8 @@ List.propTypes = {
       description: PropTypes.string,
       positive: PropTypes.number,
       negative: PropTypes.number,
+      percentagePositive: PropTypes.number,
+      percentageNegative: PropTypes.number,
     })
   )
 }

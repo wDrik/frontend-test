@@ -30,7 +30,7 @@ export const Header = styled.header`
     width: 100%;
     background: #FFF;
     margin-top: 25px;
-    height: 65px;
+    height: 60px;
     border-radius: 4px;
 
     display: flex;
@@ -40,5 +40,26 @@ export const Header = styled.header`
     h1 {
       letter-spacing: -1.5px;
     }
+  }
+`;
+
+export const Footer = styled.footer`
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+
+  p {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 300;
+
+    span {
+      font-weight: 700;
+    }
+  }
+
+  @media (max-width: 991px) {
+    position: initial;
+    margin: 20px auto;
   }
 `;

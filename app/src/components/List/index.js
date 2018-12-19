@@ -7,10 +7,11 @@ const List = ({ users }) => (
   <Container>
     <Items>
       <ul>
-        {users.map(user => (
+        {users.map((user, index) => (
           <li key={user.__id}>
             <div className="avatar">
               <img src={user.picture} alt="Avatar" />
+              <span>{index+1}</span>
             </div>
 
             <div className="info">

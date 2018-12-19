@@ -55,12 +55,33 @@ export const Items = styled.div`
       }
 
       div.avatar {
+        position: relative;
+
         img {
           border-radius: 50%;
           border: 4px solid #6bbef1;
           max-width: 55px;
           margin-right: 20px;
           transition: all ease-in-out .3s;
+        }
+
+        span {
+          position: absolute;
+          right: 20px;
+          bottom: 0;
+          background: #FFF;
+          color: #707070;
+          border: 1px solid #707070;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 10px;
+          width: 20px;
+          height: 20px;
+          line-height: 0;
+          padding-top: 2px;
+          font-weight: bold;
         }
       }
 
